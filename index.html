@@ -1,53 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Getting started.....</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BATMAN</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  	
+  	<style>
+  		/* Make the image fully responsive */
+  		.carousel-inner img {
+      	width: 100%;
+      	height: 100%;
+  		}
+  	</style>
+  </head>
+
+  <body>
+
+  	<!-------------------------------navbar----------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#"><img src="img/icon.png" alt="Logo" style="width: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+			    <input class="form-control mr-sm-2" placeholder="Search" type="text">
+				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+			</form>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+        </nav>
+
+    <!---------------------HEROUNIT--------------------------->
+
+        <div class="container-full-bg">
+          <div class="jumbotron" style="background-image: url('img/image1.jpg');">
+            <h1 align="center"><strong>BATMAN</strong></h1>
+          </div>
+        </div>
+    
+    <!---------------bodytext-------------------->
+    
+    <div class="container mt-3">
+      
+      <div class="d-flex flex-column mb-3">
+          <div class="p-2 bg-primary">
+            <h3>Bruce Wayne</h3>
+            <p>
+              Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27, in 1939. Originally named the "Bat-Man", the character is also referred to by such epithets as the Caped Crusader, the Dark Knight, and the World's Greatest Detective. Batman's secret identity is Bruce Wayne, a wealthy American playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime. Batman operates in the fictional Gotham City with assistance from various supporting characters, including his butler Alfred, police commissioner Gordon, and vigilante allies such as Robin. Unlike most superheroes, Batman does not possess any superpowers; rather, he relies on his genius intellect, physical prowess, martial arts abilities, detective skills, science and technology, vast wealth, intimidation, and indomitable will. A large assortment of villains make up Batman's rogues gallery, including his archenemy, the Joker.
+            </p>
+          </div>
+      </div>
+
+        
+          <div class="jumbotron" style="background-image: url('img/image2.jpg');">
+            <blockquote class="blockquote1 text-center">
+              <h2><strong>I wear a mask. And that mask, it's not to hide who I am, but to create what I am.</strong></h2>
+            </blockquote>
+          </div>
+
+      <div class="d-flex flex-column mb-3">
+        <!--<div class="p-2 bg-primary">
+          <img class="img-fluid" src="img/image2.jpg" />
+        </div>-->
+          <div class="p-2 bg-primary">
+            <div class="row">
+              <div class="col">
+                <p>
+                  Batman has no inherent superhuman powers; he relies on "his own scientific knowledge, detective skills, and athletic prowess". Batman's inexhaustible wealth gives him access to advanced technologies, and as a proficient scientist, he is able to use and modify these technologies to his advantage. In the stories, Batman is regarded as one of the world's greatest detectives, if not the world's greatest crime solver. Batman has been repeatedly described as having a genius-level intellect, being one of the greatest martial artists in the DC Universe, and having peak human physical conditioning. As a polymath, his knowledge and expertise in countless disciplines is nearly unparalleled by any other character in the DC Universe. He has traveled the world acquiring the skills needed to aid him in his endeavors as Batman. In the Superman: Doomed story arc, Superman considers Batman to be one of the most brilliant minds on the planet. 
+                </p>
+              </div>
+
+              <div class="col">
+                <p>
+                  Batman has trained extensively in various martial arts, mastering many different types, making him one of the best hand-to-hand fighters in the DC Universe. Superman describes Batman as "the most dangerous man on Earth", able to defeat an entire team of superpowered extraterrestrials by himself in order to rescue his imprisoned teammates in Grant Morrison's first storyline in JLA. Batman is strongly disciplined and iron willed in his ideals and has the ability to function under great physical pain and to resist most forms of telepathy and mind control. He is a master of disguise, multilingual, and an expert in espionage, often gathering information under the identity of a notorious gangster named Matches Malone. Batman is highly skilled in stealth movement and escapology, which allows him to appear and disappear at will and to break free of nearly inescapable deathtraps with little to no harm. 
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+      <div class="jumbotron" style="background-image: url('img/image3.jpg');">
+              <blockquote class="blockquote2 text-center">
+                <h2><strong>It's not who I am underneath, but what I do that defines me.</strong></h2>
+              </blockquote>
+        </div>
+        
+    
+
+      <div class="d-flex flex-column mb-3";>
+        <!--<div class="p-2 bg-primary">
+          <img class="img-fluid" src="img/image3.jpg" /></div>-->
+        <div class="p-2 bg-primary">
+          <div class="row">
+            <div class="col">
+              <h4>Bat-suit</h4>
+              <p>
+                Batman's batsuit aids in his combat against enemies, having the properties of both Kevlar and Nomex. It protects him from gunfire and other significant impacts. His gloves typically feature three scallops that protrude from long, gauntlet-like cuffs. Dennis O'Neil said, "We now say that Batman has two hundred suits hanging in the Batcave so they don't have to look the same ... Everybody loves to draw Batman, and everybody wants to put their own spin on it."
+              </p>
+            </div>
+
+            <div class="col">
+              <h4>Bat-mobile</h4>
+              <p>
+                Batman's primary vehicle is the Batmobile, which is usually depicted as an imposing black car, often with tailfins that suggest a bat's wings. Batman also has an aircraft called the Batplane (later called the "Batwing"), along with various other means of transportation. In proper practice, the "bat" prefix (as in Batmobile or batarang) is rarely used by Batman himself when referring to his equipment, particularly after some portrayals stretched the practice to campy proportions.  
+              </p>
+            </div>
+            <div class="col">
+              <h4>Bat-Signal  </h4>
+              <p>
+                When Batman is needed, the Gotham City police activate a searchlight with a bat-shaped insignia over the lens called the Bat-Signal, which shines into the night sky, creating a bat-symbol on a passing cloud which can be seen from any point in Gotham. The origin of the signal varies, depending on the continuity and medium. 
+              </p>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <!--------------------------Carousel Slider------------------------------>
+
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+				    <li data-target="#demo" data-slide-to="1"></li>
+				    <li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+				  
+			<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+				      <img src="img/image4.jpg" alt="BatvsJok" width="1100" height="500">
+				    </div>
+				    
+				    <div class="carousel-item">
+				      <img src="img/image5.jpg" alt="Joker" width="1100" height="500">
+				    </div>
+				    
+				    <div class="carousel-item">
+				      <img src="img/image6.jpg" alt="Joker width="1100" height="500">
+				    </div>
+				</div>
+				  
+			<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span class="carousel-control-prev-icon"></span>
+				</a>
+				
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+		</div>
     </div>
-  </nav>
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
-</body>
+
+    <div class="container">
+	  <ul class="nav nav-pills">
+	    <li><button type="button" class="btn btn-secondary"><a href="#">News <span class="badge">5</span></a><br></button></li>
+	    <li><button type="button" class="btn btn-secondary"><a href="#">Comments <span class="badge">10</span></a><br></button></li>
+	    <li><button type="button" class="btn btn-secondary"><a href="#">Updates <span class="badge">2</span></a></button></li>
+	  </ul>
+	</div>
+
+    <!-------------------------------------- Footer ----------------------------------------->
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="logo"><a class="navbar-brand" href="#"><img src="img/icon.png" alt="Logo" style="width: 100px;"></a></h3>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Contact us</button>
+                    <!-- Modal -->
+					  <div class="modal fade" id="myModal" role="dialog">
+					    <div class="modal-dialog">
+					    
+					      <!-- Modal content-->
+					      <div class="modal-content">
+					        <div class="modal-header">
+					          <h4 class="modal-title">Contacting Batman?</h4>
+					          <button type="button" class="close" data-dismiss="modal">&times;</button>
+					        </div>
+					        <div class="modal-body">
+					        	<div class="container">
+									<form action="/html/tags/html_form_tag_action.cfm">
+										<div class="form-group row">
+											<label for="first_name" class="col-xs-3 col-form-label mr-2">Name</label>
+												<div class="col-xs-9">
+													<input type="text" class="form-control" id="first_name" name="first_name">
+												</div>
+										</div>
+
+										<div class="form-group row">
+											<label for="last_name" class="col-xs-3 col-form-label mr-2">Email Id</label>
+												<div class="col-xs-9">
+													<input type="text" class="form-control" id="email_id" name="email_id">
+												</div>	
+										</div>
+
+										<div class="form-group row">
+											<div class="offset-xs-3 col-xs-9">
+												<button type="button" class="btn btn-primary">Submit</button>
+											</div>
+										</div>
+									</form>
+								</div>
+								<p>We will contact you back!</p>
+
+					          	<p>Phone: + 1007007007007 | Email: batman@batman.com</p>
+					        </div>
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					        </div>
+					      </div>
+					      
+					    </div>
+					  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
+    </footer>
+
+  </body>
 </html>
